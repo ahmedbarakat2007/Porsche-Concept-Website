@@ -1,0 +1,300 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(911porschav3.ttf);
+  }
+@font-face{
+    font-family: ph2;
+    src: url(Roboto-Regular.ttf);
+}
+
+body {
+    background-color: black;
+    font-family: ph2;
+    min-width: fit-content;
+}
+h1 {
+    font-family: myFirstFont;
+    color : white;
+}
+h2 {
+    font-family: ph2;
+    color : white;
+}
+p{
+    font-family: ph2;
+    color : white; 
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  opacity: 3;
+  text-decoration: none;
+  transition: 0.7s;
+}
+.header{
+    text-align :center;
+}
+#c911c{
+    width: 100%;
+    z-index: 0;
+    text-align: center;
+}
+.centershow{
+    max-width: 9000px;
+    position: relative;
+    text-align: center;
+    color: white;
+    display:none;
+    width: 100%;
+    z-index: 0;
+}
+.text911{
+    position: absolute;
+    bottom: 100px;
+    left: 16px;
+    color:white;
+}
+.h2911{
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+    color:white;
+}
+.btn911{
+    position: absolute;
+    bottom: 90px;
+    left: 370px;
+    color:white;
+}
+#btn911{
+    color:white;
+    background-color:#272a2e;
+    border:solid 0px;
+    width:140px;
+    height:40px;
+    font-family: ph2;
+}
+.container {
+    max-width: 50000px;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    z-index: 0;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .btnleman{
+    position: absolute;
+    bottom: 70px;
+    left: 400px;
+    color:white;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    width:40%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  #card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 0.6;
+    transition: 0.7s;
+  }
+  #card{
+    max-width:550px;
+    cursor: pointer;
+    width:20%;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius:20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .textlist{
+    position: absolute;
+    bottom: 30px;
+    left: 16px;
+    color:white;
+  }
+  #btn911:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 0.6;
+    transition: 0.7s;
+    cursor: pointer;
+  }
+  #lemanp{
+    max-width:800px;
+    float:left;
+    margin: 10px;
+    width:90%
+  }
+  #shop{
+    max-width:500px;
+    width:90%;
+    cursor: pointer;
+  }
+  #shop1{
+    max-width:500px;
+    width:70%;
+    height:313px;
+    cursor: pointer;
+  }
+  #shop:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 0.6;
+    transition: 0.7s;
+  }
+  #shop1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 0.6;
+    transition: 0.7s;
+  }
+  .textlist1{
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+    color:white;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+/* Page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+#menu2{
+   float:right;
+   margin-top: -43px;
+   margin-right:50px;
+   width:0px;
+   height:0px;
+   border:solid black;
+   background-color: black;
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+.endpage{
+  border:solid black;
+  width: 100%;
+  z-index: 0;
+  max-width: 90000000px;
+}
+#endpic{
+  width:400px;
+  float:left;
+  margin:50px;
+  margin-top:70px;
+}
+.btn9112{
+  position: absolute;
+  bottom: 30px;
+  left: 430px;
+  color:white;
+}
+#ahmed{
+  width: 190px;
+  border-radius:10px;
+}
+#follow{
+  margin:40px;
+}
